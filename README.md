@@ -10,7 +10,7 @@ Collect weatherdata from your weatherstation and send it via Nodered in the APRS
 
 ### Fetch weatherdata from your weatherstation
 This part varies depending what weatherstation you have and how you get the data.
-i.e. Netatmo has an API to fetch the sensor values.
+i.e. Netatmo has an API to fetch the sensor values, others just query their Arduino with a BMP-180 sensor.
 You need to provide the following sensor values at the given variable's with the given unit:
 
 
@@ -25,3 +25,7 @@ You need to provide the following sensor values at the given variable's with the
 | msg.payload.rainSinceMidnight | mm | rain since midnight |
 | msg.payload.humidity  | % | humidity |
 | msg.payload.pressure  | mbar | pressure |
+
+
+Please see the APRS Protocol Reference PDF where you'll find in Chapter 12 detailed explanation for the APRS weather packet:
+ftp://ftp.tapr.org/aprssig/aprsspec/spec/aprs101/APRS101.pdf
