@@ -6,7 +6,7 @@ Collect weatherdata from your weatherstation and send it via Nodered in the APRS
 * You will see 4 nodes
 
 ![Nodes](https://github.com/OE2WNL/nodered_aprs/raw/main/nodes.png)
-* Open the "configure" node and change the settings for your call and location.
+* Open the "configure" node and change the settings for your call, location etc.
 
 ### Fetch weatherdata from your weatherstation
 This part varies depending what weatherstation you have and how you get the data.
