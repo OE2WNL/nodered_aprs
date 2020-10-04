@@ -4,6 +4,8 @@ Collect weatherdata from your weatherstation and send it via Nodered in the APRS
 * Install Node-Red i.e. on a Raspberry https://nodered.org/docs/getting-started/raspberrypi
 * Import the flows_APRS_Weather.json file via Import -> select file
 * You will see 4 nodes
+
+![Nodes](https://github.com/OE2WNL/nodered_aprs/raw/main/nodes.png)
 * Open the "configure" node and change the settings for your call and location.
 
 ### Fetch weatherdata from your weatherstation
